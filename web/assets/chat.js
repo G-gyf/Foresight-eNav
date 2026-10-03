@@ -19,7 +19,7 @@ window.DSH_CHAT = (()=>{
   function route(id){history.replaceState(null,'',location.pathname+location.search+'#analysis='+encodeURIComponent(id));}
   function addMessage(role,text){
     const m=document.createElement('div');m.className='chat-msg '+role;
-    const who=document.createElement('div');who.className='who';who.textContent=role==='user'?'你':'数智链海';
+    const who=document.createElement('div');who.className='who';who.textContent=role==='user'?'你':'先知e航';
     const b=document.createElement('div');b.className='bubble';b.textContent=text;
     m.append(who,b);$('chat-body').appendChild(m);$('chat-body').scrollTop=$('chat-body').scrollHeight;return b;
   }

@@ -1,4 +1,4 @@
-/* 数智链海 · 最小闭环前端（零外部依赖：SVG 手绘雷达图与关系图） */
+/* 先知e航 · 最小闭环前端（零外部依赖：SVG 手绘雷达图与关系图） */
 const API = window.DSH_API_BASE || "";
 let CUR = null;       // 当前企业 scode
 let CUR_YEAR = null;  // 当前企业选定年度（年份上下文贯穿详情/推理链/简报/子图）
